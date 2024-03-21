@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #004A94;
     padding: 10px;
 }
 
@@ -52,13 +52,14 @@ label {
 input[type="text"] {
     width: 200px;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #777;
     border-radius: 5px;
+    background-color: #fff;
 }
 
 button {
     padding: 5px 10px;
-    background-color: #333;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -69,6 +70,10 @@ article {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
+}
+
+h1, h2 {
+    color: #0056b3;
 }
 
 h1 {
@@ -88,4 +93,12 @@ figure {
 figcaption {
     color: #666;
     font-style: italic;
+}
+
+/* Regla específica para imágenes */
+img {
+    max-width: 350px; /* Establece el ancho máximo de la imagen */
+    max-height: 350px; /* Establece la altura máxima de la imagen */
+    height: auto; /* Asegura que la altura de la imagen se ajuste para mantener la proporción */
+    width: auto; /* Asegura que el ancho de la imagen se ajuste para mantener la proporción */
 }
